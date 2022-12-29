@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Karla:wght@400;700&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #f9f5f7;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+
+.logo {
+  text-decoration: none;
+  color: rgba(36, 3, 36, 0.644);
+  text-transform: uppercase;
+  font-weight: 700px;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.navigation a {
+  color: rgba(36, 3, 36, 0.644);
+  text-decoration: none;
+  font: size 1.1em;
+  font-weight: 500px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  color: lightblue;
+}
+
+section {
+  padding: 100px 200px;
+}
+
+.main {
+  background: url(img/Photoo.JPEG.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: right;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.main h2 span {
+  display: inline-block;
+  color: #f1e9ed;
+  font-size: 1.5em;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+}
+.main h2 {
+  color: #f1e9ed;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.main h3 {
+  color: #f1e9ed;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.main-btn {
+  color: rgba(36, 3, 36, 0.644);
+  background-color: #f1e9ed;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.8em 1.8em;
+  letter-spacing: 1px;
+  border-radius: 13px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.main-btn:hover {
+  background-color: rgba(88, 31, 88, 0.644);
+  color: #f1e9ed;
+  transform: scale(1.05);
+  transition: 0.5s ease;
+}
+
+.social-icons a {
+  color: #f1e9ed;
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+
+.social-icons a:hover {
+  color: rgba(124, 87, 124, 0.644);
+  transform: scale(1.05);
+  transition: 0.5s ease;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgba(36, 3, 36, 0.644);
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.contentskills {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+}
+
+.card {
+  background-color: #f1e9ed #f9f5f7;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+
+.icon {
+  color: rgba(30, 1, 30, 0.644);
+  font-size: 5em;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+.info h3 {
+  color: rgba(36, 3, 36, 0.644);
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.skills-card {
+  box-shadow: 0 5px 20px rgba(1 1 1 /15%);
+  border-radius: 120px;
+  padding: 20px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+.si {
+  font-size: 3em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+.skills-card:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.BOX1:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+.BOX1 {
+  background-color: white;
+  width: 40em;
+  height: 20em;
+  box-shadow: 0 5px 25px rgba(1 1 1 /13%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  flex-wrap: wrap;
+}
+.skills-info1 {
+  color: rgba(36, 3, 36, 0.644);
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.skills-card {
+  padding: 25px;
+  margin: 15px;
+}
+
+.skills-info2 {
+  color: rgba(36, 3, 36, 0.644);
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.info3 {
+  color: rgba(30, 1, 30, 0.644);
+  text-align: center;
+}
+
+.info3 p {
+  color: black;
+}
+
+.cards-contact .icon {
+  font-size: 3em;
+}
+
+.info3 a {
+  color: black;
+}
+
+.info3 a:hover {
+  color: lightblue;
+}
+
+.footer {
+  background-color: rgba(30, 1, 30, 0.644);
+  color: #f1e9ed;
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-title {
+  font-size: 1em;
+  font-weight: 800px;
+}
+.f-title span {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+}
+@media (max-width: 1024px) {
+  header {
+    padding: 10px 10px;
+  }
+  .navigation a {
+    padding-left: 5px;
+  }
+  .title {
+    font-size: 1.6em;
+  }
+  section {
+    padding: 80px 20px;
+  }
+  .main-content h2 {
+    font-size: 0.9em;
+  }
+
+  .main-content h3 {
+    font-size: 1.4em;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    font-size: 20px;
+  }
+
+  .BOX1 {
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(1 1 1 /13%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    width: 30em;
+    height: 15em;
+  }
+  .si {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skills-card {
+    box-shadow: 0 5px 20px rgba(1 1 1 /15%);
+    border-radius: 100px;
+    padding: 10px;
+    margin: 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+  .contentskills {
+    flex-direction: row;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 5px;
+    flex-wrap: wrap;
+  }
+  .card:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+  }
+  .main {
+    background: url(img/Photoo23.JPEG.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-attachment: fixed;
+  }
+
+  @media (max-width: 641px) {
+    body {
+      font-size: 12px;
+    }
+
+    .main-content h2 {
+      font-size: 1.4em;
+    }
+  }
+
+  @media (max-width: 300px) {
+    body {
+      font-size: 10px;
+    }
+  }
+}
